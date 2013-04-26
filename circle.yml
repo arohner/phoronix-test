@@ -1,7 +1,7 @@
 test:
   override:
     - curl http://www.phoronix-test-suite.com/download.php?file=phoronix-test-suite-4.4.1 -o phoronix.tar.gz
-    - tar -zxf phoronix-tar.gz
+    - tar -zxf phoronix.tar.gz
     - mkdir -p ~/.phoronix-test-suite/
     - cp user-config.xml ~/.phoronix-test-suite/
     - cd phoronix-test-suite && ./phoronix-test-suite batch-run pts/scimark2
