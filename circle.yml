@@ -4,4 +4,4 @@ test:
     - tar -zxf phoronix.tar.gz
     - mkdir -p ~/.phoronix-test-suite/
     - cp user-config.xml ~/.phoronix-test-suite/
-    - cd phoronix-test-suite && ./phoronix-test-suite batch-run pts/scimark2
+    - cd phoronix-test-suite && yes | ./phoronix-test-suite batch-run pts/scimark2
