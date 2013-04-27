@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# sudo apt-get install build-essential php5-cli mesa-utils unzip
+
 curl -L -o phoronix.tar.gz http://www.phoronix-test-suite.com/download.php?file=phoronix-test-suite-4.4.1
 tar -zxf phoronix.tar.gz
 mkdir -p ~/.phoronix-test-suite/
